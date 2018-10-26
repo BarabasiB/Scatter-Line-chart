@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script data-require="chart.js@*" data-semver="2.6.0" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+    <link rel="stylesheet" href="style.css" />  
+  </head>
+
+  <body>
+    <div>
+      <div>
+        <canvas width="500" height="400" id="chart"></canvas>
+        <div>
+          <div>
+            Enter how many points do you want to generate:
+            </br> 
+            <input id="nr" type="number" value="1"/>
+            </br>
+            Generating numbers
+            <br/>
+            From: 
+            <input id="min" type="number" value="1"/>
+            <br/>
+            To: 
+            <input id="max" type="number" value="10"/>
+          </div>
+        </div>
+        </br>
+        <div>
+        <button id="start" class="btn btn-primary">Start</button>
+        <button id="clear" class="btn btn-primary">Clear</button>
+      </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+</html>
